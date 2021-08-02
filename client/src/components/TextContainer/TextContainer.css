@@ -1,0 +1,36 @@
+.text__container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  color: white;
+  height: 60%;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.text__container-title {
+  font-size: 25px;
+  color: darkgray;
+  margin-bottom: 0;
+}
+
+.text__container-user-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50%;
+}
+
+.text__container-item {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  font-weight: normal;
+}
+
+.text__container-item img {
+  padding-left: 10px;
+}
+
+.text__container-item h1 {
+  margin-bottom: 0px;
+}
